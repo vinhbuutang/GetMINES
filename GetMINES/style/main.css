@@ -24,7 +24,7 @@ h1.title {
   color: #0000FF;
   margin: 0;
   display: block;
-  float: center; }
+  float: left; }
 
 @-webkit-keyframes move-up {
   0% {
@@ -105,8 +105,7 @@ h1.title {
 p {
   margin-top: 0;
   margin-bottom: 10px;
-  line-height: 1.65;
-  text-align: justify; }
+  line-height: 1.65; }
 
 a {
   color: #0000FF;
@@ -586,7 +585,7 @@ hr {
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
-        display: block; }
+        display: block;  }
 
   .grid-container {
     position: absolute;
