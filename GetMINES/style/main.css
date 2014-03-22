@@ -337,7 +337,7 @@ hr {
     background-size: cover; }
   .tile.tile-16 .tile-inner {
     background: #fff url('../img/hec.png');
-    background-size: 110px 120px; }
+    background-size: 115px 105px; }
   .tile.tile-32 .tile-inner {
     background: #fff url('../img/centrale_paris.png');
     background-size: 115px 105px; }
@@ -694,4 +694,8 @@ hr {
     line-height: 30px !important;
     margin-top: 90px !important; }
   .game-message .lower {
-    margin-top: 30px !important; } }
+    margin-top: 30px !important; }
+  .sharing > iframe, .sharing > span, .sharing > form {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; } }
